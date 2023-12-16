@@ -23,7 +23,6 @@ class LearningItemAdapter(
     }
 
     override fun getItemCount(): Int {
-        Log.i("TEST",learningItemList.toString())
         return learningItemList.count()
     }
 

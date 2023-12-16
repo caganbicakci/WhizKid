@@ -1,7 +1,6 @@
-package com.caganbicakci.whizkid
+package com.caganbicakci.whizkid.fragments
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -38,6 +37,7 @@ class HomeFragment : Fragment(), LearningItemClickHandler {
             layoutManager = gridLayoutManager
             adapter = learningItemAdapter
         }
+        learningItemViewModel.getChatResult("Rastgele hayvan ismi ver")
     }
 
     override fun learningItemClicked(learningItem: LearningItem) {

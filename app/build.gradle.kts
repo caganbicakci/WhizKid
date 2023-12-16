@@ -60,6 +60,7 @@ dependencies {
     implementation("androidx.navigation:navigation-dynamic-features-fragment:2.7.5")
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.2")
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
     implementation ("com.aallam.openai:openai-client:3.5.1")
